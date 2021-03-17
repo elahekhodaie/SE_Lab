@@ -33,6 +33,16 @@ public class TestRec {
         assertEquals(20, rectangle.getHeight(),0);
     }
 
+@Test
+public void areaTestingAfterSizeChanges() {
+    System.out.print(" the initial area computed : ");
+    assertEquals(50, rectangle.computeArea(), 0);
+    rectangle.setHeight(30);
+    
+    System.out.print("after changes :");
+    assertEquals(150, rectangle.computeArea(), 0);
+}
+
 
 
 }
