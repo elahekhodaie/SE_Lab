@@ -21,6 +21,18 @@ public class TestRec {
         assertEquals(50, rectangle.computeArea(), 0);
     }
 
+    @Test
+    public void testSetRectangleWidth() {
+        rectangle.setWidth(25);
+        assertEquals(25, rectangle.getWidth(),0);
+    }
+
+    @Test
+    public void testSetRectangleHeight() {
+        rectangle.setHeight(20);
+        assertEquals(20, rectangle.getHeight(),0);
+    }
+
 
 
 }
