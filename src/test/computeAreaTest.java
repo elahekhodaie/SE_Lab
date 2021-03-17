@@ -1,14 +1,25 @@
 package test;
+import org.junit.Assert;
+import org.junit.Test;
 
-
-import org.junit.jupiter.api.Test;
 
 public class computeAreaTest {
 
+
     @Test
-    public void testAreaCompute() throws Exception{
-        
+    public void firstTest() {
+        Assert.assertTrue(true);
     }
 
 
+
+
+
+//    @Test
+//    public void testAreaCompute() throws Exception{
+//
+//    }
+
+
 }
+
